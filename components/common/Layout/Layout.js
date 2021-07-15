@@ -7,7 +7,7 @@ import { useTheme } from "next-themes";
 
 export function Layout({ children }) {
   return (
-    <div className="w-full min-h-screen dark:bg-gray-700 dark:text-white">
+    <div className="w-full min-h-screen dark:bg-gray-900 dark:text-white">
       <div className="max-w-screen-sm px-4 py-12 mx-auto antialiased font-body">
         <Header />
         <main>{children}</main>
@@ -60,7 +60,7 @@ const Header = () => {
 };
 
 const LargeTitle = () => (
-  <h1>
+  <h3>
     <Link href="/">
       <a
         className={clsx(
@@ -69,14 +69,14 @@ const LargeTitle = () => (
           "dark:text-white"
         )}
       >
-        Next.Js Starter Blog
+        Hey, Welcome to my Blog
       </a>
     </Link>
-  </h1>
+  </h3>
 );
 
 const SmallTitle = () => (
-  <h1>
+  <h3>
     <Link href="/">
       <a
         className={clsx(
@@ -84,8 +84,8 @@ const SmallTitle = () => (
           "dark:text-white"
         )}
       >
-        Next.Js Starter Blog
+        Hope you have fun
       </a>
     </Link>
-  </h1>
+  </h3>
 );

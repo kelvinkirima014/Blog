@@ -1,15 +1,15 @@
 {
   "siteMetadata": {
-    "title": "Next.js Starter Blog",
+    "title": "Kirima's Blog",
     "author": {
-      "name": "Jose Felix",
-      "summary": "who works building clean user interfaces with React."
+      "name": "Kelvin Kirima",
+      "summary": "and I work as a smart contracts engineer building on Solana."
     },
-    "description": "A blog created with Next.js and Tailwind.css",
+    "description": "Blog about smart contracts, solana, crypto and blockchain.",
     "siteUrl": "https://nextjs-starter-blog-demo.netlify.app/",
     "language": "en-US",
     "social": {
-      "twitter": "Jose_R_Felix"
+      "twitter": "014kirima"
     }
   }
 }

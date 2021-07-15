@@ -76,7 +76,7 @@ const LargeTitle = () => (
 );
 
 const SmallTitle = () => (
-  <h3>
+  <h4>
     <Link href="/">
       <a
         className={clsx(
@@ -84,8 +84,8 @@ const SmallTitle = () => (
           "dark:text-white"
         )}
       >
-        Hope you have fun
+        Home
       </a>
     </Link>
-  </h3>
+  </h4>
 );

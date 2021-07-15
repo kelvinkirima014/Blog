@@ -1,6 +1,6 @@
 ---
 title: Generating the nth Fibonacci using Rust.
-description: Coding is such a blissful activity.
+description: Learn How to code a program that takes an integer and generates its corresponding Fibonacci.
 date: 2021-07-15T11:00:00.000Z
 ---
 

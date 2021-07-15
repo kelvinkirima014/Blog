@@ -69,7 +69,7 @@ const LargeTitle = () => (
           "dark:text-white"
         )}
       >
-        Hey, Welcome to my Blog
+        Hey, Welcome to my Blog...
       </a>
     </Link>
   </h3>

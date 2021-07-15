@@ -1,6 +1,6 @@
 ---
 title: The Queen's Crown is Gone!
-description: How climate change is eroding livelihoods and culture from communities.
+description: The Impacts of climate change on the livelihoods and cultures of indigenous communities.
 date: 2021-07-06T11:00:00.000Z
 ---
 Thousands of kilometres south of the Sahara desert is a beautiful volcanic mountain with three peaks and an ice cap that’s crowned her head for thousands of years. John Ludwig Kraft, a German missionary, was the first to record her. He named her [Mt Kenya](https://en.wikipedia.org/wiki/Mount_Kenya). My ancestors called her *Kirimara*, meaning a mountain of whiteness. I was born on the northeastern slopes of this mountain, and here is where I have spent most of my life. My grandpa had me named after this mountain.

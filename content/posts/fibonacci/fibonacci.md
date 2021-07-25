@@ -56,7 +56,7 @@ fn fib (n: i32) -> i32 {
  }
 }
 ```
-Here is what’s happening. First, we create a function (fn) named `fib` and pass variable `n` as a parameter. In Rust, we have to specify the type of the parameter and its return value. I specify it’s a `u32`, meaning it can only accept unsigned/positive integers of 32 bits and the `->` is specifying the return type of the function which is also a `u32` integer. 
+Here is what’s happening. First, we create a function (fn) named `fib` and pass variable `n` as a parameter. In Rust, we have to specify the type of the parameter and its return value. I specify it’s a `i32`, meaning it can only accept unsigned/positive integers of 32 bits and the `->` is specifying the return type of the function which is also a `i32` integer. 
 Next, I use an `if` expression followed by a condition that checks if the value of `n` is less or equal to `0` and returns `0` if that’s the case. We then check to see if the value of `n` is `1` and return `1`. In the `else` part, we implement the logic of the Fibonacci sequence by recursively calling the function with a different integer.
 ### Printing the Values on the screen.
 Now let’s go back to our `main` function and modify it to look like this...

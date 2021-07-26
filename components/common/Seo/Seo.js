@@ -20,7 +20,7 @@ export function SEO({ title, description = "" }) {
         property="og:description"
         content={metaDescription}
       />
-      <meta property="og:image" content={"https://twitter.com/014kirima/status/1419733377293426691/photo/1"} />
+      <meta property="og:image" content="https://twitter.com/014kirima/status/1419733377293426691/photo/1" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />

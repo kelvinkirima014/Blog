@@ -19,8 +19,8 @@ export function Bio({ className }) {
       <p className="text-base leading-7">
         I am <b className="font-semibold">{author.name}</b>{" "}
         {author.summary}{" "}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          Follow me on twitter.
+        <a href={`https://github.com/${social.github}`}>
+          View on Github.
         </a>
       </p>
     </div>

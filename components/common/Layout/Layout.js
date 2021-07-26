@@ -12,8 +12,8 @@ export function Layout({ children }) {
         <Header />
         <main>{children}</main>
         <footer className="text-lg font-light">
-          © {new Date().getFullYear()}, Built with{" "}
-          <a href="https://nextjs.org/">Next.js</a>
+          © {new Date().getFullYear()}, Follow me on{" "}
+          <a href="https://twitter.com/014kirima">twitter</a>
           &#128293;
         </footer>
       </div>
@@ -65,7 +65,7 @@ const LargeTitle = () => (
       <a
         className={clsx(
           "text-3xl font-black leading-none text-black no-underline font-display",
-          "sm:text-5xl",
+          "sm:text-4xl",
           "dark:text-white"
         )}
       >

@@ -1,8 +1,5 @@
----
-title: A Gentle Introduction to Solana.
-description: Learn how to build programs on the solana blockchain.
-date: 2021-09-21T11:00:00.000Z
----
+
+
 ## A Gentle Introduction to Solana.
 This tutorial will take you from *zero to one* in building on the [Solana network](https://solana.com/). I’ll guide you through the entire process of developing on Solana by building an on-chain program using Rust and deploying it to the Solana test net. We’ll also interact with the on-chain program using the Solana/web3js Javascript API.
 

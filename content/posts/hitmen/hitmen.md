@@ -1,6 +1,6 @@
 ---
 title: Tools of the Empire.
-description: Despite fighting against oppression for ages, developing countries are still at the mercy of imperialists. Learn why economic oppression is an imperialist's favourate tool and how blockchain and crypto comes to the rescue.
+description: Despite fighting against oppression for ages, developing countries are still at the mercy of imperialists. Learn why economic oppression is an imperialist's favourite tool and how blockchains and crypto come to the rescue.
 date: 2021-07-25T11:00:00.000Z
 ---
 I recently read John Perkins’s, [The New Confessions of an Economic Hitman](https://www.amazon.com/New-Confessions-Economic-Hit-Man/dp/1626566747). Perkins’s job was to convince leaders of developing nations - often through bribes and threats, to accept development loans from the World Bank and other US-controlled institutions, ensuring that they contracted these projects to U.S companies. Such loans provided political influence for the U.S and access to natural resources for U.S corporations.

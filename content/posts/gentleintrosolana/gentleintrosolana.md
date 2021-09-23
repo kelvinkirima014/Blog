@@ -630,5 +630,3 @@ Run npm start again and you'll see the times we say hello increases by 1 each ti
 Congrats! We just created a solana program, deployed it on a local cluster, and interacted with it from the client side using a JSON RPC API.  
 You can use this tutorial as a reference on various Solana and Rust concepts as you build your own programs.
 
-### About the author.
-This tutorial was created by [Kelvin Kirima](https://kirima.vercel.app/). Kelvin is a programmer excited about decentralization and working to build an open internet and open communities. 

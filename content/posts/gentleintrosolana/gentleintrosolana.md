@@ -6,7 +6,7 @@ date: 2021-09-25T11:00:00.000Z
 
 This tutorial will take you from *zero to one* in building on the [Solana network](https://solana.com/). I’ll guide you through the entire process of developing on Solana by building an on-chain program using Rust and deploying it to the Solana test net. We’ll also interact with the on-chain program using the Solana/web3js Javascript API.
 
-Unlike most Solana tutorials, I won’t tell you to go learn Rust on your own. I’ll walk you through various Rust concepts that are necessary to understand the code and also point you to the best resources.
+You don't have to be familiar with Rust to learn from this tutorial. I’ll walk you through various Rust concepts that are necessary to understand the code and also point you to the best resources.
 ### Prerequisites
 
 - Basic familiarity with a [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface)

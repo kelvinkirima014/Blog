@@ -28,6 +28,8 @@ Before we start coding our program, we must have an overview of what's building 
 
 When called, a program must be passed to something called a [BPF loader](https://docs.solana.com/developing/on-chain-programs/overview#loaders) which is responsible for loading and executing BPF programs. All programs export an entrypoint that the runtime looks up and calls when invoking a program.
 
+Because programs are written to target the BPF loader, they can be written in any language that compiles to BPF bytecode. Solana currently supports writing programs in Rust and C/C++.
+
 ### Our Solana program.
 
 Solana has a nice [hello-world example](https://github.com/solana-labs/example-helloworld) that shows us how to build a Rust program on Solana from scratch and interact with it using a typescript SDK. 

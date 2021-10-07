@@ -1,7 +1,7 @@
 ---
 title: Understanding JavaScript Runtime and Event Loop.
 description: Why is JavaScript single threaded but can still perfom asynchronous tasks?
-date: 2021-02-21T11:00:00.000Z
+date: 2020-11-21T11:00:00.000Z
 ---
 Javascript is single-threaded, i.e, it executes only one operation at a time. This process of executing only one operation at a time on a single thread is the reason we say javascript is synchronous. But then what happens if a task takes too long to complete? Will all the other tasks be halted as we wait for this particular task to complete? This could clearly slow down our applications. To avoid such implications, javascript has a concurrency model based on the event loop that provides it with the ability to process multiple tasks asynchronously.
 This article will help you understand why javascript is single-threaded and yet asynchronous by learning about the javascript runtime environment, the event loop and the mechanisms behind it.

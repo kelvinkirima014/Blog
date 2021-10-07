@@ -4,7 +4,7 @@ description: Learn How to code a program that takes an integer and generates its
 date: 2021-05-15T11:00:00.000Z
 ---
 
-I committed myself to learn Rust since April, mainly because I am so psyched about the [Solana](https://solana.com/) ecosystem which uses Rust for [solana programs](https://paulx.dev/blog/2021/01/14/programming-on-solana-an-introduction/) and is also built on Rust. The [Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) is a great resource to learn from and after going through the basics, one challenge they ask you to try out is coding a program that generates numbers in a Fibonacci sequence. I thought it would be cool to document my journey by sharing walkthroughs of what I am building. 
+I committed myself to learn Rust since April, mainly because I am so psyched about the [Solana](https://solana.com/) ecosystem which uses Rust for [solana programs](https://hackernoon.com/an-introduction-to-building-on-the-solana-network) and is also built on Rust. The [Book](https://doc.rust-lang.org/book/ch00-00-introduction.html) is a great resource to learn from and after going through the basics, one challenge they ask you to try out is coding a program that generates numbers in a Fibonacci sequence. I thought it would be cool to document my journey by sharing walkthroughs of what I am building. 
 
 ### What’s a Fibonacci sequence?
 

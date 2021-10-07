@@ -1,7 +1,7 @@
 ---
 title: How Is Memory Allocated in Javascript?
 description: Understand how JavaScript allocates or frees memory.
-date: 2021-01-28T11:00:00.000Z
+date: 2020-12-14T11:00:00.000Z
 ---
 When writing javascript code, you usually don't have to worry about memory management. This is because javascript automatically allocates the memory when we create variables, objects and functions and releases the memory when they are not being used any more(the release of memory is known as garbage collection). Knowing how the memory is allocated is therefore not always necessary but it will help you gain more understanding of how javascript works and that is what you want, right?
 

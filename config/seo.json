@@ -3,11 +3,11 @@
     "title": "Kirima's Blog",
     "author": {
       "name": "Kirima",
-      "summary": ", a programmer and crypto enthusiast. Building the decentralized future, an open internet and open communities."
+      "summary": ", a programmer and free software enthusiast. Building the decentralized future, an open internet and open communities."
     },
-    "description": "Sharing my thoughts on life, culture, crypto and blockchain in general.",
+    "description": "Sharing my thoughts on life, maths, crypto, and programming.",
     
-    "siteUrl": "https://kirima.vercel.app/",
+    "siteUrl": "https://www.kirima.xyz/",
     "language": "en-US",
     "social": {
       "github": "kelvinkirima014"

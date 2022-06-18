@@ -12,7 +12,7 @@ export function Layout({ children }) {
         <Header />
         <main>{children}</main>
         <footer className="text-lg font-light">
-          © {new Date().getFullYear()}, Follow me on{" "}
+          © {new Date().getFullYear()}, Say Hi on{" "}
           <a href="https://twitter.com/014kirima">twitter</a>
           &#128293;
         </footer>

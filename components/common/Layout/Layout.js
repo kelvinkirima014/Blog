@@ -13,7 +13,7 @@ export function Layout({ children }) {
         <main>{children}</main>
         <footer className="text-lg font-light">
           © {new Date().getFullYear()}, Say Hi on{" "}
-          <a href="https://twitter.com/014kirima">twitter</a>
+          <a href="https://discord.com/channels/@me">Discord</a>
           &#128293;
         </footer>
       </div>

@@ -1,10 +1,10 @@
 {
   "name": "nextjs-blog-starter",
   "version": "0.2.0",
-  "description": "A Next.js template for a blog website.",
+  "description": "A Next.js a blog website.",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
@@ -43,6 +43,6 @@
   "keywords": [
     "next.js",
     "blog",
-    "template"
+    "website"
   ]
 }

@@ -12,8 +12,8 @@ export function Layout({ children }) {
         <Header />
         <main>{children}</main>
         <footer className="text-lg font-light">
-          © {new Date().getFullYear()}, Say Hi on{" "}
-          <a href="https://discord.com/channels/@me">Discord</a>
+          © {new Date().getFullYear()}, Say Hello on{" "}
+          <a href="https://discord.com/channels/@Kelvin#7460">Discord</a>
           &#128293;
         </footer>
       </div>

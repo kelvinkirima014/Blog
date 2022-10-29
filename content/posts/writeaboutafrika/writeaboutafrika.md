@@ -1,6 +1,6 @@
 ---
 title: How to write about Afrika
-description: This is my favourite article by Binyavanga Wainana, one of the best writers I've ever read. I'm publishing it on my blog because I just can't help myself. Enjoy!
+description: This is my favourite article by Binyavanga Wainana, one of the best writers I've read. I'm publishing it on my blog because I just can't help myself. Enjoy!
 date: 2022-09-06T11:00:00.000Z
 ---
 Always use the word ‘Africa’ or ‘Darkness’ or ‘Safari’ in your title. Subtitles may include the words ‘Zanzibar’, ‘Masai’, ‘Zulu’, ‘Zambezi’, ‘Congo’, ‘Nile’, ‘Big’, ‘Sky’, ‘Shadow’, ‘Drum’, ‘Sun’ or ‘Bygone’. Also useful are words such as ‘Guerrillas’, ‘Timeless’, ‘Primordial’ and ‘Tribal’. Note that ‘People’ means Africans who are not black, while ‘The People’ means black Africans.

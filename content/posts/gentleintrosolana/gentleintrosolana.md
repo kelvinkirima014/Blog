@@ -82,7 +82,7 @@ pub fn process_instruction(
 ) -> ProgramResult {
     msg!("Hello World Rust program entrypoint");
 
-    // Iterating accounts is safer then indexing
+    // Iterate over accounts
     let accounts_iter = &mut accounts.iter();
 
     // Get the account to say hello to
@@ -108,7 +108,8 @@ pub fn process_instruction(
 
 There's a lot of awesome things going on in the above code. Let's go through it line by line, as I promised. 
 
-Rust allows us to build on code written by others using [crates](https://learning-rust.github.io/docs/d4.crates.html). A crate can contain several modules and we specify the modules we want to bring into scope. First, we bring the crates we need via a *use* declaration. *use* is like *import* in JS or *includes* in C. This is our first use declaration:
+Rust allows us to build on code written by others using [crates](https://learning-rust.github.io/docs/d4.crates.html). A crate can contain several modules and we specify the modules we want to bring into scope. First, we bring the crates we need via a *use* declaration. 
+This is our first use declaration:
 
 ```rust
 use borsh::{BorshDeserialize, BorshSerialize};
@@ -131,7 +132,7 @@ use solana_program::{
 
 Let's discuss what each item we brought from the `solana_program` crate does:
 
-- *account_info* contains [`next_account_info`](https://github.com/solana-labs/solana/blob/a911ae00baa9bb7031041add14c5185c86376afb/sdk/program/src/account_info.rs#L202) which is a public function that returns the next `AccountInfo` or a `NotEnoughAccountKeys` error. `AccountInfo` is a public struct(we'll discuss structs in a few) that contains the account's information - like the Pubkey and owner. You can view the source code [here](https://github.com/solana-labs/solana/blob/a911ae00baa9bb7031041add14c5185c86376afb/sdk/program/src/account_info.rs#L10).
+- from *account_info* we get [`next_account_info`](https://github.com/solana-labs/solana/blob/a911ae00baa9bb7031041add14c5185c86376afb/sdk/program/src/account_info.rs#L202) which is a public function that returns the next `AccountInfo` or a `NotEnoughAccountKeys` error. `AccountInfo` is a public struct(we'll discuss structs in a few) that contains the account's information - like the Pubkey and owner. You can view the source code [here](https://github.com/solana-labs/solana/blob/a911ae00baa9bb7031041add14c5185c86376afb/sdk/program/src/account_info.rs#L10).
 - In `entrypoint`, we have an `entrypoint!` [macro](https://doc.rust-lang.org/rust-by-example/macros.html) that we'll later use to call our program. Macros are a way of writing code that writes other code. They reduce the amount of code you need to write! We have different forms of macros, the *entrypoint* we just brought into scope is known as a [declarative macro](https://doc.rust-lang.org/reference/macros-by-example.html) because it allows us to define syntax extension in a declarative way.
 - We then bring `ProgramResult` which also lives in the [same file](https://github.com/solana-labs/solana/blob/a911ae00baa9bb7031041add14c5185c86376afb/sdk/program/src/entrypoint.rs#L18) as the entrypoint macro. It's a [Result](https://doc.rust-lang.org/stable/book/ch09-02-recoverable-errors-with-result.html?highlight=resu#recoverable-errors-with-result) type that returns `Ok` if the program runs well or `ProgramError` if the program fails. [Result](https://doc.rust-lang.org/stable/book/ch09-02-recoverable-errors-with-result.html?highlight=resu#recoverable-errors-with-result) is an enum in Rust which is defined as having two variants, `Ok` and `Err`. We use it for error handling.
 - `msg` is a macro that's used for logging in Solana. If you have programmed in Rust before, you may be used to the `println!` macro but Solana considers it computationally expensive.
